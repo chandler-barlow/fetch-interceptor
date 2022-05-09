@@ -30,4 +30,4 @@ jobs:
           user-name: "Chandler Barlow"
           user-email: "chandlerbrlw@gmail.com"
           message: "Automatically built unbuilt typescript"
-          directories: ./src
+          directories: ./
