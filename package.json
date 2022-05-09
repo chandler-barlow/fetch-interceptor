@@ -1,0 +1,33 @@
+{
+  "name": "@americanairlines/fetch-interceptor",
+  "version": "1.0.0",
+  "description": "A lean package for intercepting fetch calls in node.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "eslint \"src/*.ts\" --max-warnings 0",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "prettier -l \"src/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandler-barlow/fetch-interceptor.git"
+  },
+  "author": "Chandler Barlow <chandlerbrlw@gmail.com> (https://www.chandlerbarlow.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chandler-barlow/fetch-interceptor/issues"
+  },
+  "homepage": "https://github.com/chandler-barlow/fetch-interceptor#readme",
+  "dependencies": {
+    "husky": "^8.0.1",
+    "node-fetch": "^3.2.4",
+    "prettier": "^2.6.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^8.15.0"
+  }
+}
