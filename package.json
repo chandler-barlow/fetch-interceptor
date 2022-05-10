@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "A lean package for intercepting fetch calls in node.",
   "main": "./lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/*/**"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "lint": "eslint \"src/*.ts\" --max-warnings 0",
     "lint:fix": "npm run lint -- --fix",
-    "prettier": "prettier -l \"src/*.ts\""
+    "prettier": "prettier -l \"src/*.ts\"",
+    "prepare": "tsc"
   },
   "repository": {
     "type": "git",
@@ -21,13 +26,13 @@
   },
   "homepage": "https://github.com/chandler-barlow/fetch-interceptor#readme",
   "dependencies": {
-    "husky": "^8.0.1",
-    "node-fetch": "^3.2.4",
-    "prettier": "^2.6.2"
+    "node-fetch": "^3.2.4"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
-    "eslint": "^8.15.0"
+    "eslint": "^8.15.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.6.2"
   }
 }
