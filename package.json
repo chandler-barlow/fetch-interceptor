@@ -1,6 +1,6 @@
 {
   "name": "@americanairlines/fetch-interceptor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lean package for intercepting fetch calls in node.",
   "main": "./lib/index.js",
   "types": "lib/index.d.ts",
